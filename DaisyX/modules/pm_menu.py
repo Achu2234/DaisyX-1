@@ -45,16 +45,16 @@ def help_markup(modules):
 
 
 STICKERS = (
-    "CAACAgEAAxkBAAK-iWDCP9M2z6pOU_UoQHOgsugwsuQvAAIwBwACkSkAARBwMkMrx95ZGR8E",
-    "CAACAgEAAxkBAAK-jWDCP-EXk54PtpDNtb4keLm-UIfuAAIxBwACkSkAARAnk9TTkKwxCh8E",
-    "CAACAgEAAxkBAAK-kWDCP_DTryvlCDpMUTuDgtP78WraAAIyBwACkSkAARB9KaxwXN1rBB8E",
-    "CAACAgEAAxkBAAK-lWDCP_5GYcMZa6Kk38irawyzQiFsAAI5BwACkSkAARBqgme3pmnPRh8E",
-    "CAACAgEAAxkBAAK-mWDCQAt18dwCeiwZ_-Q1AVksgGRaAAKKBwACkSkAARC_FEPaQS8n4x8E",
-    "CAACAgEAAxkBAAK-nWDCQCUZFwSu0tywvqEtXTRUHaycAALsBwACkSkAARDsS3NxTAv6Yh8E",
-    "CAACAgEAAxkBAAK-oWDCQDZv66ncZgultzLNEKNnuxBiAAKiBwACkSkAARCg5o3Qyp39vB8E",
-    "CAACAgEAAxkBAAK-rWDCQIL7YN4TgB7Qz-zaouJoGu_fAAIPCAACkSkAARC3oL2SwlEHlR8E",
-    "CAACAgEAAxkBAAK-qWDCQGigc3zwIeyWuF1tvIlHxDpKAALTBwACkSkAARCFOJelJDfJ6h8E",
-    "CAACAgEAAxkBAAK-sWDCQJWjsP3DdOZ4g-x_Fo_BbUFmAALlBwACkSkAARBTqIHnFwrCtR8E",
+    "CAACAgUAAxkBAAJOGmBeli95P073FKVkgc4esfKE4UlXAAIOAgACyavAVkbLMIidWYdyHgQ",
+    "CAACAgUAAxkBAAJOG2BeljABwlCfwzHT1gzyiciBri6_AAIsAgACXBPBVgpGQRz-1qmlHgQ",
+    "CAACAgUAAxkBAAJOHGBeljOJ35CQNnkpnVcgRoHuJX6DAAL3AQACN8TBVm1PIART01cWHgQ",
+    "CAACAgUAAxkBAAJOHWBeljXW9QzYQ51gpCjHZHCF5Ui6AAJ7AgAC3zDBVo2xenp7JYhAHgQ",
+    "CAACAgUAAxkBAAJOHmBeljjU0_FT_QpdUUJBqVUC0nfJAAKYAgACJ_jBVvntHY_8WF27HgQ",
+    "CAACAgUAAxkBAAJOH2BeljrV68mPLu8_6n4edT20Q3IQAAJ9AgACq3LBVmLuZuNPlvkfHgQ",
+    "CAACAgUAAxkBAAJOIGBeljttuniUPykRtzkSZj3SRwKJAAI7AgACNm_BVp8TCkE6ZqCoHgQ",
+    "CAACAgUAAxkBAAJOIWBelj-P_2vtVqtkF2OMlVN3M0N4AAK3AQACSm3BVkXF2voraS2tHgQ",
+    "CAACAgUAAxkBAAJOImBelkJxUBm2rL1iPfMZfk-_9DaOAALrAgAC4T3BVniopXQVsZ4KHgQ",
+    "CAACAgUAAxkBAAJOI2BelkMO0AX_wtAc7hUZz1NixuMlAAKEAwACY4TAViVuNLTBmmkgHgQ",
 )
 
 
@@ -92,7 +92,7 @@ async def get_start_func(message, strings, edit=False):
     )
     buttons.add(
         InlineKeyboardButton(
-            "👸🏼 Add DaisyX to your group",
+            "👸🏼 Add 𝑹𝒆𝒏𝒈𝒐𝒌𝒖 𝑺𝒂𝒏 to your group",
             url=f"https://telegram.me/RengokuKyujoro_RealmsBot?startgroup=true",
         )
     )
